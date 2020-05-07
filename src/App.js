@@ -4,8 +4,14 @@ function App() {
   return (
     <div className="App">
       <div className='title'>
-        <h1 className='text-focus-in'>Mirosław <span>Pajor</span></h1>
-        <h2 className='tracking-in-expand'>JavaScript Developer</h2>
+      
+        <div className='title-left'>
+          <h1 className='text-focus-in'>Mirosław <span>Pajor</span></h1>
+          <h2 className='tracking-in-expand'>JavaScript Developer</h2>
+        </div>
+        <div className='title-right'>
+          <img src='m1.jpg'></img>
+        </div>
       </div>
       <div className='content'>
         <span>

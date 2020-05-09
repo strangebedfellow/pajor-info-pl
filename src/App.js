@@ -1,19 +1,23 @@
 import React from 'react';
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function App() {
   return (
     <div className="App">
       <div className='title'>
-      
         <div className='title-left'>
           <h1 className='text-focus-in'>Mirosław <span>Pajor</span></h1>
           <h2 className='tracking-in-expand'>JavaScript Developer</h2>
+          <Link to="contact" smooth={true} duration={200}>About</Link>
+          <Link to="contact" smooth={true} duration={200}>Projects</Link>
+          <Link to="contact" smooth={true} duration={200}>Contact</Link>
         </div>
         <div className='title-right'>
           <img src='m1.jpg'></img>
         </div>
       </div>
-      <div className='content'>
+      <div className='content' id='contact'>
         <span>
           <div className='row scale-in-center'>
             <i class="fas fa-mobile-alt"></i>

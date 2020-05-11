@@ -1,6 +1,7 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Carousel from './swipe';
 
 function App() {
   return (
@@ -9,13 +10,16 @@ function App() {
         <div className='title-left'>
           <h1 className='text-focus-in'>Mirosław <span>Pajor</span></h1>
           <h2 className='tracking-in-expand'>JavaScript Developer</h2>
-          <Link to="contact" smooth={true} duration={200}>About</Link>
-          <Link to="contact" smooth={true} duration={200}>Projects</Link>
-          <Link to="contact" smooth={true} duration={200}>Contact</Link>
+          <Link to="contact" smooth='easeInOutCubic' duration={500}>About</Link>
+          <Link to="projects" smooth='easeInOutCubic' duration={500}>Projects</Link>
+          <Link to="contact" smooth='easeInOutCubic' duration={500}>Contact</Link>
         </div>
         <div className='title-right'>
           <img src='m1.jpg'></img>
         </div>
+      </div>
+      <div className='projects' id='projects'>
+        <Carousel />
       </div>
       <div className='content' id='contact'>
         <span>

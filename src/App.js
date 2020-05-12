@@ -2,6 +2,7 @@ import React from 'react';
 import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Carousel from './swipe';
+import Projects from './Projects'
 
 function App() {
   return (
@@ -18,9 +19,7 @@ function App() {
           <img src='m1.jpg'></img>
         </div>
       </div>
-      <div className='projects' id='projects'>
-        <Carousel />
-      </div>
+      <Projects />
       <div className='content' id='contact'>
         <span>
           <div className='row scale-in-center'>

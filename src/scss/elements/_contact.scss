@@ -4,6 +4,11 @@
   //justify-content: space-evenly;
   font-size: 1rem;
   min-height: 100vh;
+  margin-left: 3rem;
+
+  .contact-title {
+    padding-top: 3rem;;
+  }
 
   h2 {
     font-family: $font-base;
@@ -12,7 +17,7 @@
     color: rgb(255, 255, 255);
     position: relative;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 0 1rem 0;
     width: 50vw;
     &::after {
       content: "";
@@ -43,7 +48,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1rem;
+   // padding: 1rem;
   }
 
   span {
@@ -51,12 +56,16 @@
    // justify-content: center;
    align-items: center;
 
-    border-radius: 10px;
-    width: 50vw;
-    height: 15vh;
+    //border-radius: 10px;
+    border: 1px solid transparent;
+    width: 20vw;
+    height: 10vh;
+    transition: all 200ms ease;
     &:hover {
-      background-color: rgb(109, 108, 108);
+      background-color: rgba(109, 108, 108, 0.2);
       cursor: pointer;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
     }
   }
 
@@ -68,7 +77,12 @@
 @media (max-width: 700px) {
   body {
     .contact {
-     align-items: start;
+     align-items: flex-start;
+     margin: 0;
+
+     .contact-title {
+      padding-top: 1rem;
+    }
 
      h2 {
        padding-left: 10px;
@@ -77,6 +91,8 @@
       span {
         width: 100vw;
         justify-content: flex-start;
+        height: 10%;
+        padding: 1rem;
       }
       p {
         font-size: 1rem;

@@ -103,11 +103,10 @@
   .social-links {
     position: absolute;
     display: flex;
-    flex-direction: column;
     bottom: 2%;
     i {
       font-size: 2rem;
-      padding: 2rem 0 2rem 0;
+      padding: 2rem 2rem 2rem 0;
     }
     a {
       color: black;
@@ -151,5 +150,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+  .social-links {
+    right: 2%;
   }
 }

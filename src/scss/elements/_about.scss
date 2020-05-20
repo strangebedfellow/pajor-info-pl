@@ -1,0 +1,47 @@
+.about {
+  min-height: 100vh;
+  background-color: $bg-color1;
+  font-family: $font-base;
+  font-size: 1.2rem;
+  color: $bg-color1;
+
+  #technologies {
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+
+  .about-content {
+    width: 80vw;
+    background-color: $bg-color2;
+    margin: 1rem auto;
+    line-height: 2rem;
+    padding: 1rem;
+
+    li {
+      list-style-type: disc;
+      margin-left: 2rem;
+    }
+  }
+
+  h2 {
+    font-family: $font-base;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2rem 0 1rem 2rem;
+    width: 50vw;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      right: 0;
+      bottom: -3px;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}

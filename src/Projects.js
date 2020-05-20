@@ -37,6 +37,15 @@ function Projects() {
           </div>
           <div className='p1'>
             <h1>GIVE AWAY APP</h1>
+            <img src='give_away.jpg'></img>
+            <span className='project-src'>
+              <a href='https://github.com/strangebedfellow/give-away-app' target='_blank'>
+                <p><i class="fab fa-github"></i> Source</p>
+              </a>
+              <a href='http://pajor.info.pl/giveaway' target='_blank'>
+                <p><i class="far fa-play-circle"></i> Demo</p>
+              </a>
+            </span>
           </div>
         </ReactSwipe>
         <div className='swipe-nav'>

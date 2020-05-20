@@ -9,7 +9,7 @@ function Landing() {
         <h1 className='text-focus-in'>Mirosław <span>Pajor</span></h1>
         <h2 className='tracking-in-expand'>JavaScript Developer</h2>
         <div className='menu'>
-          <Link to="contact" smooth='easeInOutCubic' duration={500}>About</Link>
+          <Link to="about" smooth='easeInOutCubic' duration={500}>About</Link>
           <Link to="projects" smooth='easeInOutCubic' duration={500}>Projects</Link>
           <Link to="contact" smooth='easeInOutCubic' duration={500}>Contact</Link>
         </div>

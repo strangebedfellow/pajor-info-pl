@@ -4,6 +4,7 @@
   font-family: $font-base;
   font-size: 1.2rem;
   color: $bg-color1;
+  border-bottom: 1px solid $bg-color2;
 
   #technologies {
     font-weight: bold;
@@ -42,6 +43,16 @@
       right: 0;
       bottom: -3px;
       background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+
+@media (max-width: 700px) {
+  .about-content {
+    p {
+      font-size: 0.8rem;
+      line-height: 1.5rem;
     }
   }
 }

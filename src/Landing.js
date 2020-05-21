@@ -23,7 +23,6 @@ function Landing() {
         </div>
       </div>
       <div className='title-right'>
-        <img src='m1.jpg'></img>
       </div>
     </div>
   );

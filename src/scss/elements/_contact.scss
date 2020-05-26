@@ -1,13 +1,11 @@
 .contact {
   display: flex;
   flex-direction: column;
-  //justify-content: space-evenly;
   font-size: 1rem;
   min-height: 100vh;
-  margin-left: 3rem;
 
   .contact-title {
-    padding-top: 3rem;
+    //padding-top: 3rem;
   }
 
   h2 {
@@ -17,7 +15,7 @@
     color: rgb(255, 255, 255);
     position: relative;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 1rem 0 1rem 0;
+    padding: 2rem 0 2rem 3rem;
     width: 50vw;
     &::after {
       content: "";
@@ -48,7 +46,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    // padding: 1rem;
   }
 
   span {
@@ -58,6 +55,7 @@
     width: 50vw;
     height: 10vh;
     transition: all 200ms ease;
+    padding-left: 3rem;
     &:hover {
       background-color: rgba(109, 108, 108, 0.2);
       cursor: pointer;

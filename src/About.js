@@ -18,9 +18,12 @@ function About() {
         <p id='technologies'>Narzędzia i technologie:</p>
         <ul>
           <li>JavaScript (ES6)</li>
+          <li>C/C++</li>
           <li>C#</li>
+          <li>PHP</li>
           <li>SQL</li>
           <li>React.js</li>
+          <li>Vue.js</li>
           <li>jQuery</li>
           <li>AJAX / REST API</li>
           <li>HTML5 / CSS3 / SASS</li>

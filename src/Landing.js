@@ -22,8 +22,6 @@ function Landing() {
           </a>
         </div>
       </div>
-      <div className='title-right'>
-      </div>
     </div>
   );
 }

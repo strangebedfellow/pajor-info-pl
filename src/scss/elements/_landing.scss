@@ -61,7 +61,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 3rem;
-    width: 50%;
+
     h1 {
       padding-top: 3rem;
       font-size: 5rem;
@@ -87,19 +87,6 @@
         background-color: rgb(6, 155, 155);
       }
     }
-  }
-
-  .title-right {
-    position: relative;
-    height: 100vh;
-    width: 50%;
-    border-radius: 50%;
-    transform: translate(50%);
-    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
-    background-image: url("m1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(100%) opacity(30%);
   }
 
   .social-links {
@@ -137,9 +124,6 @@
       }
       h2 {
         font-size: 1rem;
-      }
-      .title-right {
-        display: none;
       }
       .title-left {
         margin: 0;

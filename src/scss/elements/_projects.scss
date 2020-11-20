@@ -1,6 +1,30 @@
 .projects {
   min-height: 100vh;
 
+  h2 {
+    font-family: $font-base;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2rem 0 1rem 2rem;
+    width: 50vw;
+    
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      right: 0;
+      bottom: -3px;
+      background-color: rgb(255, 255, 255);
+      z-index: 1;
+    }
+  }
+
   a {
     text-decoration: none;
     color: white;
@@ -27,7 +51,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 80vh;
     background-color: $bg-color1;
 
     h1 {
@@ -46,7 +70,6 @@
       width: 50vw;
       border: 1px solid $bg-color2;
       margin-bottom: 2rem;
-
     }
 
     .project-src {

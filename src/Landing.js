@@ -7,7 +7,7 @@ function Landing() {
     <div className='title'>
       <div className='title-left'>
         <h1 className='text-focus-in'>Mirosław <span>Pajor</span></h1>
-        <h2 className='tracking-in-expand'>JavaScript Developer</h2>
+        <h2 className='tracking-in-expand'>Frontend Developer</h2>
         <div className='menu'>
           <Link to="about" smooth='easeInOutCubic' duration={500}>About</Link>
           <Link to="projects" smooth='easeInOutCubic' duration={500}>Projects</Link>

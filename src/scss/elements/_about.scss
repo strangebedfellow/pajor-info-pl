@@ -8,10 +8,11 @@
 
   #technologies {
     font-weight: bold;
-    padding-top: 2rem;
+    //padding-top: 2rem;
   }
 
   .about-content {
+    border-radius: 5px;
     width: 80vw;
     background-color: $bg-color2;
     margin: 1rem auto;

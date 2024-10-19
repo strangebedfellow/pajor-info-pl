@@ -12,20 +12,8 @@ function Projects() {
           swipeOptions={{ continuous: true }}
           ref={el => (reactSwipeEl = el)}
         >
-          <div className='p1'>
-            <h1>PHYSIOTHERAPY PATIENTS MANAGER</h1>
-            <img src='physio.jpg'></img>
-            <span className='project-src'>
-              <a href='https://github.com/strangebedfellow/physiotherapy-patients-manager' target='_blank'>
-                <p><i class="fab fa-github"></i> Source</p>
-              </a>
-              <a href='http://pajor.info.pl/physio' target='_blank'>
-                <p><i class="far fa-play-circle"></i> Demo</p>
-              </a>
-            </span>
-          </div>
-          <div className='p1'>
-            <h1>NASA API</h1>
+             <div className='p1'>
+            <h1>Explore Mars</h1>
             <img src='nasa.jpg'></img>
             <span className='project-src'>
               <a href='https://github.com/strangebedfellow/nasa_api_project' target='_blank'>
